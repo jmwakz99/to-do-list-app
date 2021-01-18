@@ -1,9 +1,11 @@
-
+import Loader from './components/ui/Loader'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!!</h1>
+
+      <Loader></Loader>
+
 
     </div>
   );

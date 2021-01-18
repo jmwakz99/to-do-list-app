@@ -3,7 +3,7 @@ const initState = {
 }
 
 
-const rootReducer = (state, action) => {
+const rootReducer = (state = initState, action) => {
     return state
 }
 
