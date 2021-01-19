@@ -1,14 +1,26 @@
-import Loader from './components/ui/Loader'
+import React from 'react'
+import ListItem from './components/ui/ListItem'
 
-function App() {
-  return (
-    <div className="App">
+class App extends React.Component {
 
-      <Loader></Loader>
+  componentDidMount() {
+    // window.$('.ui.search')
+    //   .search({
+    //     source: 'Test'
+    //   })
+    //   ;
 
+  }
+  render() {
+    return (
+      <div className="App">
+        <ListItem></ListItem>
 
-    </div>
-  );
+      </div>
+    );
+
+  }
+
 }
 
 export default App;
